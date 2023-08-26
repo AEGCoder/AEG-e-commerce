@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Bacasime Antique", serif;
+}
+
+.menu-link .anticon {
+  display: flex;
+  justify-items: center;
+}
+
+.bad.active {
+  @apply text-blue-500;
+}

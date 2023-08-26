@@ -1,0 +1,3 @@
+.carousel-slide {
+  @apply xl:h-[500px] lg:h-[350px] md:h-[330px] h-[136px];
+}
